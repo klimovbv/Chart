@@ -69,7 +69,7 @@ public class ChartFragment extends Fragment {
         /*mChart.setCenterTextTypeface(tf);*/
 
         // radius of the center hole in percent of maximum radius
-        mChart.setHoleRadius(60f);
+        /*mChart.setHoleRadius(30f);*/
         /*mChart.setTransparentCircleRadius(100f);*/
 
         Legend l = mChart.getLegend();

@@ -6,15 +6,16 @@
     android:layout_height="match_parent"
     android:id="@+id/fragment_container">
 
-    <com.spb.kbv.chart.ChartAndLegendView
-        android:layout_height="wrap_content"
+    <com.github.mikephil.charting.charts.PieChart
+        android:layout_height="250dp"
         android:layout_width="match_parent"
-        android:id="@+id/chart"/>
+        android:id="@+id/pie_chart"/>
 
-    <TextView
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Some Text"/>
+        android:id="@+id/legend"/>
 
 
 </LinearLayout>
